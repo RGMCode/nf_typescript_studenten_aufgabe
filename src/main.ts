@@ -1,5 +1,12 @@
 import './style.css'
 
+    /* Aufgabe TypeScript:
+    - erstelle ein Studenten-Object das einen Namen und eine Id hat
+    - erstelle ein Studenten-Array
+    - schreibe eine function, die einen Studenten in einem Array findet und seinen Namen updated
+    - verändere deine function so, dass das ursprüngliche Objekt nicht verändert, sondern ein neues erstellt wird
+    */
+
     type Student = {
         id: string;
         fistName: string;
@@ -54,3 +61,5 @@ import './style.css'
 
     updateStudentByIdFunctional("3", {id: "3", fistName: "Helminie", lastName: "Rüther", sex: "W", age: "90"})
     console.log(getStudentById("3"))
+
+    console.log(getAllStudents());
